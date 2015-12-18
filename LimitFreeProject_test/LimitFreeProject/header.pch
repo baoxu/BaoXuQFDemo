@@ -1,0 +1,41 @@
+//
+//  header.pch
+//  LimitFreeProject
+//
+//  Created by baoxu on 15/10/13.
+//  Copyright © 2015年 BaoXu. All rights reserved.
+//
+
+#ifndef header_pch
+#define header_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//接口
+#import "NetInterface.h"
+//网络
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+//model
+#import "ZJModelTool.h"
+//适配
+#import "ZJScreenAdaptation.h"
+#import "ZJScreenAdaptaionMacro.h"
+
+
+#endif /* header_pch */
+
+/**
+ *   $(SRCROOT)
+     $(PROJECT_DIR)
+ 
+     ---->/Users/baoxu/qianfeng/work/授课/Jiu1532/10_爱限免/LimitFreeProject   /(工程文件)
+        都是定位到工程所在的文件夹（路径）
+ 
+      $(PROJECT_NAME)
+     ---->工程的名字
+ 
+ */
+
